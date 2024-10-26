@@ -82,10 +82,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &kp COLON        &kp ESC    &trans     &trans  &trans    &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &kp FSLH         &kp ENTER  &trans     &trans  &kp LGUI  &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &kp EXCLAMATION  &trans     &trans     &trans  &trans    &trans  &trans  &sys_reset  &trans
+                        &trans           &trans     &kp TAB    &none   &trans    &trans
             >;
         };
     };
