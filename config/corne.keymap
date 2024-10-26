@@ -46,7 +46,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans        &trans    &trans  &trans    &trans    &kp UNDER  &kp PIPE   &kp SQT            &kp SEMI    &trans
+&trans  &trans     &trans        &trans    &trans  &trans    &trans    &kp UNDER  &kp PIPE   &kp SQT            &trans      &trans
 &trans  &kp LCTRL  &kp ASTERISK  &kp AMPS  &none   &trans    &kp HASH  &kp TILDE  &kp SLASH  &kp DOUBLE_QUOTES  &kp DOLLAR  &trans
 &trans  &trans     &trans        &trans    &trans  &trans    &trans    &trans     &trans     &trans             &trans      &trans
                                  &trans    &trans  &trans    &trans    &trans     &trans
@@ -55,28 +55,28 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans          &kp COLON        &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON    &trans  &trans           &trans     &trans    &trans       &trans
+&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &none            &kp EQUAL  &kp PLUS  &kp PERCENT  &trans
+&trans  &trans          &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &trans  &trans           &trans     &trans    &trans       &trans
+                                         &trans                &kp C_VOLUME_DOWN      &trans           &trans  &kp C_VOLUME_UP  &trans
             >;
         };
 
         function_keys {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F11  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F12  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         numbers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp FSLH  &kp N7  &kp N8  &kp N9  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0    &kp N1  &kp N2  &kp N3  &kp MINUS    &trans  &trans  &trans  &trans  &none   &trans
+&trans  &trans    &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans       &trans  &trans  &trans
             >;
         };
 
