@@ -19,10 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q             &kp W               &kp E           &kp R    &kp T            &kp Y        &kp U    &kp I               &kp O                    &kp P                      &trans
-&trans  &mt LEFT_SHIFT A  &lt 3 S             &lt 1 D         &lt 1 F  &kp G            &kp H        &lt 2 J  &lt 1 K             &lt 4 L                  &mt RIGHT_SHIFT SEMICOLON  &trans
-&trans  &kp Z             &mt LEFT_CONTROL X  &mt LEFT_ALT C  &kp V    &kp B            &kp N        &kp M    &mt LEFT_ALT COMMA  &mt LEFT_CONTROL PERIOD  &kp FSLH                   &trans
-                                              &trans          &trans   &kp BACKSPACE    &lt 5 SPACE  &trans   &trans
+&trans  &kp Q             &kp W               &kp E           &kp R        &kp T            &kp Y        &kp U    &kp I               &kp O                    &kp P                      &trans
+&trans  &mt LEFT_SHIFT A  &lt 3 S             &lt 1 D         &lt 1 F      &kp G            &kp H        &lt 2 J  &lt 1 K             &lt 4 L                  &mt RIGHT_SHIFT SEMICOLON  &caps_word
+&trans  &kp Z             &mt LEFT_CONTROL X  &mt LEFT_ALT C  &kp V        &kp B            &kp N        &kp M    &mt LEFT_ALT COMMA  &mt LEFT_CONTROL PERIOD  &kp FSLH                   &trans
+                                              &trans          &kp LA(TAB)  &kp BACKSPACE    &lt 5 SPACE  &kp TAB  &trans
             >;
         };
 
@@ -82,10 +82,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &kp COLON        &kp ESC    &trans     &trans  &trans    &trans  &trans  &trans      &trans
-&trans  &trans  &trans  &kp FSLH         &kp ENTER  &trans     &trans  &kp LGUI  &trans  &trans  &trans      &trans
-&trans  &trans  &trans  &kp EXCLAMATION  &trans     &trans     &trans  &trans    &trans  &trans  &sys_reset  &trans
-                        &trans           &trans     &kp TAB    &none   &trans    &trans
+&trans  &trans  &trans  &kp COLON        &kp ESC    &trans     &trans  &kp RG(LEFT)  &kp RG(UP_ARROW)  &kp RG(DOWN)  &kp RG(RIGHT)  &trans
+&trans  &trans  &trans  &kp FSLH         &kp ENTER  &trans     &trans  &kp LGUI      &trans            &trans        &trans         &trans
+&trans  &trans  &trans  &kp EXCLAMATION  &trans     &trans     &trans  &trans        &trans            &trans        &sys_reset     &trans
+                        &trans           &trans     &kp TAB    &none   &trans        &trans
             >;
         };
     };
