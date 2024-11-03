@@ -98,7 +98,7 @@
         quick_7 {
             bindings = <
 &trans  &trans  &trans  &kp COLON        &kp ESC            &trans     &trans  &kp RG(LEFT)  &kp RG(UP_ARROW)  &kp RG(DOWN)  &kp RG(RIGHT)  &trans
-&trans  &trans  &trans  &kp FSLH         &kp ENTER          &trans     &trans  &kp LGUI      &trans            &trans        &trans         &trans
+&trans  &trans  &trans  &kp FSLH         &kp ENTER          &trans     &trans  &kp LGUI      &trans            &trans        &kp DELETE     &trans
 &trans  &trans  &trans  &kp EXCLAMATION  &kp LC(BACKSPACE)  &trans     &trans  &trans        &trans            &trans        &sys_reset     &trans
                         &trans           &trans             &kp TAB    &none   &trans        &trans
             >;
