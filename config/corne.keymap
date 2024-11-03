@@ -62,7 +62,7 @@
         right_symbol_3 {
             bindings = <
 &trans  &trans     &trans        &trans    &trans  &trans    &trans    &kp UNDER  &kp PIPE   &kp SQT            &trans      &trans
-&trans  &kp LCTRL  &kp ASTERISK  &kp AMPS  &none   &trans    &kp HASH  &kp TILDE  &kp SLASH  &kp DOUBLE_QUOTES  &kp DOLLAR  &trans
+&trans  &kp CARET  &kp ASTERISK  &kp AMPS  &none   &trans    &kp HASH  &kp TILDE  &kp SLASH  &kp DOUBLE_QUOTES  &kp DOLLAR  &trans
 &trans  &trans     &trans        &trans    &trans  &trans    &trans    &trans     &trans     &trans             &trans      &trans
                                  &trans    &trans  &trans    &trans    &trans     &trans
             >;
